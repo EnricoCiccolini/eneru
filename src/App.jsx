@@ -10,7 +10,7 @@ export default function App() {
   return (
     <>
 
-      <BrowserRouter>
+      <BrowserRouter >
         <Routes>
           <Route element={<NavBar />}>
             <Route path="/" element={<Homepage />} />
