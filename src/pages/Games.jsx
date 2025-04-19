@@ -1,21 +1,17 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
+export default function Games() {
 
-function Games() {
-
-
-    return (
-        <>
-            <div className="card" >
-                <img src="/prova.jpg" className="card-img-top" alt="ultimo" />
-                <div className="card-body">
-                    <h5 className="card-title">Ultimo reparto</h5>
-                    <p className="card-text">Un manicomio , un uscita ... riuscirai a trovarla ?</p>
-                    <Link className="btn btn-primary" to={"/games/ultimo/:1"} >prova ora </Link>
+    return <div className="d-flex justify-content-center mt-5">
+        <div className="card">
+            <img src="/manicomio.jpg" className="card-img-top" alt="ultimo" />
+            <div className="card-body">
+                <h3 className="card-title">L'ultimo reparto</h3>
+                <p className="card-text fw-bold">Sarai solo, un manicomio, spettrale, un'unica uscita... Riuscirai a trovarla?</p>
+                <div className="d-flex justify-content-center">
+                    <Link className="btn btn-secondary" to={"/games/ultimo/:1"} >Gioca ora </Link>
                 </div>
             </div>
-        </>
-
-    )
-}
-export default Games
+        </div>
+    </div>
+};

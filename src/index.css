@@ -3,9 +3,24 @@ header img {
 }
 
 body {
-    background-color: slategrey;
+    background-color: #2F2F2F;
+    color: #D2D2D2;
 }
 
 .card {
-    width: 18rem;
+    width: 30rem;
+}
+
+
+body.img-back {
+    background-image: url(../public/creepy.jpg);
+}
+
+.text-red {
+    color: #B20000;
+}
+
+.img-home {
+    width: 100%;
+    height: 372px;
 }

@@ -1,11 +1,7 @@
-import { useState } from 'react'
-import { Outlet } from 'react-router-dom'
-import { Link } from 'react-router-dom'
+import { Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-
-
-function NavBar() {
-
+export default function NavBar() {
 
     return (
         <>
@@ -26,7 +22,7 @@ function NavBar() {
 
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-white" href="#">non servo a nulla </a>
+                                    <Link to={"/about"} className="nav-link text-white" >Chi siamo</Link >
                                 </li>
 
                             </ul>
@@ -37,6 +33,5 @@ function NavBar() {
             <Outlet />
         </>
     )
-}
+};
 
-export default NavBar
