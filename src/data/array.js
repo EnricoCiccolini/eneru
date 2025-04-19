@@ -7,7 +7,7 @@ const arrayUltimoReparto = [
         body: "Benvenuto nell'Ultimo Reparto. Sei entrato in un ospedale psichiatrico abbandonato, dove nessuno ha il coraggio di addentrarsi. I corridoi sono silenziosi, ma senti dei passi in lontananza. Una voce ti sussurra:'Non andare più avanti'.",
         title: "Un letto d'ospedale in un corridoio spettrale",
         image: "/letto.jpg",
-        choice1: 'secgli la porta 1',
+        choice1: 'INIZIO',
         choice2: 'scegli la porta 2',
         n1: ":2",
         n2: "",

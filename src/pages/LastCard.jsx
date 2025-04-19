@@ -34,7 +34,9 @@ export default function LastCard() {
                     ) : (
                         <div className="text-center mt-4">
                             <h4>HAI VINTO!</h4>
-                            <Link to="/" className="btn btn-success mt-3">Torna alla Home</Link>
+                            <Link to="/" className="btn btn-success mt-3 mb-3">Torna alla Home</Link>
+                            <h4>PER GIOCARE DAL VIVO VIENI A TROVARCI!</h4>
+                            <a className="btn btn-success mt-3" href="https://eneruescape.it/?gad_source=1&gclid=CjwKCAjwk43ABhBIEiwAvvMEB2yw26r6SVMxB8TlSODaCZVY5HOix3-sAyBNHB0vX1I_FiBHFRiEPxoCtJoQAvD_BwE">ENERU GAMES</a>
                         </div>
                     )}
                 </div>
