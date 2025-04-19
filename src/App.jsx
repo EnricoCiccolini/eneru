@@ -1,7 +1,7 @@
 import NavBar from './component/NavBar';
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import Homepage from './pages/Homepage';
-import Games from './pages/Games';
+import Games from './pages/games';
 import LastCard from './pages/LastCard';
 import About from './pages/About';
 
