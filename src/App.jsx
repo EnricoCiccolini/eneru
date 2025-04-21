@@ -4,6 +4,7 @@ import Homepage from './pages/Homepage';
 import Games from './pages/games';
 import LastCard from './pages/LastCard';
 import About from './pages/About';
+import BuriedCard from './pages/BuriedCard';
 
 export default function App() {
 
@@ -17,6 +18,7 @@ export default function App() {
             <Route path="/games" element={<Games />} />
             <Route path="/about" element={<About />} />
             <Route path="/games/ultimo/:slug" element={<LastCard />} />
+            <Route path="/games/sepolti/:slug" element={<BuriedCard />} />
           </Route>
 
         </Routes>

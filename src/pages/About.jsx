@@ -1,5 +1,8 @@
 export default function About() {
+
     document.body.classList.remove('img-back');
+
+    document.body.classList.remove('img-back-2');
     return <div className="container mt-5">
         <h1 className="mb-4">Di noi</h1>
         <p>

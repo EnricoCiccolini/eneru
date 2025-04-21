@@ -1,6 +1,7 @@
 export default function Homepage() {
 
     document.body.classList.remove('img-back');
+    document.body.classList.remove('img-back-2');
     return (
         <>
             <h1 className="text-red fw-bold text-center mt-4 mb-4">BOOK ROOMS</h1>
